@@ -1,0 +1,133 @@
+/*
+font-family: 'Lato', sans-serif;
+*/
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    background: url("bg.png");
+    background-size: 100%;
+    background-repeat: none;
+    font-family: 'Lato', sans-serif;
+    background-position: center center;
+}
+
+#master {
+    width: 930px;
+    margin: -10px auto;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    background: #eee;
+    padding: 50px;
+    box-shadow: -10px -10px 2px rgba(0, 0, 0, .85);
+}
+
+#profilepic img {
+    width: 270px;
+    margin-left: 50px;
+}
+
+.myname h1 {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    width: 500px;
+    text-align: center;
+}
+
+.myname p {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-top: -30px;
+    letter-spacing: 3px;
+}
+
+section {
+    width: 350px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+section.info {
+    float: left;
+}
+
+section.intro {
+    float: right;
+    margin-right: 70px;
+}
+
+section p {
+    padding-bottom: 35px;
+}
+
+span.bold {
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+}
+
+span.inforight {
+    float: right;
+}
+
+section.intro {
+    line-height: 25px;
+    text-align: justify;
+}
+
+section.intro p {
+    padding-bottom: 0;
+}
+
+section.intro h2 {
+    text-transform: uppercase;
+}
+
+section.intro h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 800;
+    color: rgb(150, 150, 150);
+}
+
+section.intro small {
+    font-style: italic;
+}
+
+section.intro ul {
+    text-align: left;
+}
+
+span.listbold {
+    font-weight: bold;
+}
+
+section.info .container h2 {
+    text-transform: uppercase;
+}
+
+section.info .container p {
+    padding-bottom: 0;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: white;
+    text-align: justify;
+}
